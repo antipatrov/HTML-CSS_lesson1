@@ -13,15 +13,41 @@
      display: block;
  }
  
- .url_head {
+ a {
+     text-decoration: none
+ }
+ 
+ .url_menu {
      text-decoration: none;
-     font-size: 40px;
-     line-height: 80px;
-     color: rgb(47, 0, 255);
+     font-size: 16px;
+     line-height: 20px;
+     color: cornflowerblue;
      width: 150px;
      height: 40px;
      text-align: center;
-     background-color: rgb(255, 0, 200);
+     background-color: rgb(12, 120, 46);
+ }
+ 
+ .heading {
+     color: #222222;
+     font-size: 28px;
+     line-height: 36px;
+     font-weight: bold;
+ }
+ 
+ .heading_two {
+     font-style: normal;
+     font-weight: 700;
+     font-size: 36px;
+     line-height: 80px;
+ }
+ 
+ .paragraf {
+     font-style: normal;
+     font-weight: 300;
+     font-size: 18px;
+     line-height: 30px;
+     color: #7D7987
  }
  
  .header {
